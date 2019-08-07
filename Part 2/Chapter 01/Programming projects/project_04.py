@@ -18,6 +18,8 @@ current_population = 307357870                # current census
 
 years = int(input('Years passed: '))
 updated_population = current_population + \
-                     3 * (birth_per_year - death_per_year + immigrant_per_year)
+                     years * (birth_per_year - \
+                              death_per_year + \
+                              immigrant_per_year)
 print("The estimated population count in {0} years is {1}".format(years,
                                                                   updated_population))
