@@ -1,0 +1,10 @@
+We now have a partial program that calculates the 
+probability of getting a poker hand with just one pair. 
+To complete the program, we must include a counter for each type of hand. 
+We need a counter for each type of hand, and we need to increment that 
+counter each time that type of hand is encountered. 
+The resulting program is quite a bit longer, but if you examine 
+it carefully, you will see that we simply duplicated the counter 
+initialization and increment statements. (Later, you will learn how 
+to write a more compact program with one compound counter as a list 
+to accommodate all 10 types of hands.)
