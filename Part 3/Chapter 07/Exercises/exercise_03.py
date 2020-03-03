@@ -10,3 +10,7 @@ GitHub:  phuycke
 
 #%%
 
+import numpy as np
+
+list1 = np.arange(0, 101, dtype = int)
+
